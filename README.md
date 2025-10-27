@@ -1,27 +1,27 @@
 # MExD
-This is a official repository for MExD
+This is an official repository for MExD
 
 # Data preprocessing
-All Data is preprocessed followed by [CLAM](https://github.com/mahmoodlab/CLAM "CLAM"). Please refer to the website for more details. 
+All Data was preprocessed, followed by [CLAM](https://github.com/mahmoodlab/CLAM "CLAM"). Please refer to the website for more details. 
 
 **1. Extract patches**
 ```javascript
 python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch_size 256 --seg --process_list CSV_FILE_NAME --patch --stitch
 ```
-**2.Extract features**
+**2.Extract features** 
 ```javascript
 python extract_features_fp.py --data_h5_dir DIR_TO_COORDS --data_slide_dir DATA_DIRECTORY --csv_path CSV_FILE_NAME --feat_dir FEATURES_DIRECTORY --batch_size 512 --slide_ext .svs
 ```
-
+We use two types of feature extractors: CtransPath and ViT, please download the pretrained weights [TransPath] (https://github.com/Xiyue-Wang/TransPath "TransPath") and use the provided modified "timm" package.
 # Training
 # training moe:
-Training the MOE model, we encourage you train the MOE based on a well-trained origin transMIL.
+Training the MOE model, we encourage you to train the MOE based on a well-trained origin transMIL.
 ```javascript
 bash train_moe.sh
 ```
 
 # Acknolwledge
-We thanks the contribution of TransMIL, IBMIL, [CLAM](https://github.com/mahmoodlab/CLAM "CLAM") to the WSI-C community.
+We thank the contribution of TransMIL, IBMIL, [CLAM](https://github.com/mahmoodlab/CLAM "CLAM") to the WSI-C community.
 
 # Reference
 ```javascript
