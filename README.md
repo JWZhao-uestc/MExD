@@ -24,6 +24,7 @@ bash train_moe.sh
 We thanks the contribution of TransMIL, IBMIL, [CLAM](https://github.com/mahmoodlab/CLAM "CLAM") to the WSI-C community.
 
 # Reference
+```javascript
 @InProceedings{Zhao_2025_CVPR,
     author    = {Zhao, Jianwei and Li, Xin and Yang, Fan and Zhai, Qiang and Luo, Ao and Zhao, Yang and Cheng, Hong and Fu, Huazhu},
     title     = {MExD: An Expert-Infused Diffusion Model for Whole-Slide Image Classification},
@@ -32,4 +33,5 @@ We thanks the contribution of TransMIL, IBMIL, [CLAM](https://github.com/mahmood
     year      = {2025},
     pages     = {20789-20799}
 }
+```
 
