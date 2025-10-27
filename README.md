@@ -21,7 +21,7 @@ bash train_moe.sh
 ```
 
 # Acknolwledge
-We thank the contribution of TransMIL, IBMIL, [CLAM](https://github.com/mahmoodlab/CLAM "CLAM") to the WSI-C community.
+We thank the contribution of TransMIL, IBMIL, [CLAM](https://github.com/mahmoodlab/CLAM "CLAM") and [TransPath](https://github.com/Xiyue-Wang/TransPath "TransPath") to the WSI-C community.
 
 # Reference
 ```javascript
