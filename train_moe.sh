@@ -1,0 +1,1 @@
+ python train_moe.py --num_classes 2 --dataset TCGA --agg no --model moe --feat_type ctrans --trained_model ./baseline_soft/ctrans/09212024/TCGA_moe_no_fulltune/9/10.pth
