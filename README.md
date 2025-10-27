@@ -12,7 +12,7 @@ python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY
 ```javascript
 python extract_features_fp.py --data_h5_dir DIR_TO_COORDS --data_slide_dir DATA_DIRECTORY --csv_path CSV_FILE_NAME --feat_dir FEATURES_DIRECTORY --batch_size 512 --slide_ext .svs
 ```
-We use two types of feature extractors: CtransPath and ViT, please download the pretrained weights [TransPath] (https://github.com/Xiyue-Wang/TransPath "TransPath") and use the provided modified "timm" package.
+We use two types of feature extractors: CtransPath and ViT, please download the pretrained weights [TransPath](https://github.com/Xiyue-Wang/TransPath "TransPath") and use the provided modified "timm" package.
 # Training
 # training moe:
 Training the MOE model, we encourage you to train the MOE based on a well-trained origin transMIL.
